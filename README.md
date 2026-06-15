@@ -10,10 +10,11 @@ brew tap Guru-RF/ham-tools
 brew install ham-tools
 ```
 
-Homebrew may ask you to trust this third-party tap the first time you use it:
+If Homebrew refuses to load the formula from this untrusted third-party tap,
+trust it once and re-run the install:
 
 ```sh
-brew trust guru-rf/ham-tools
+brew trust Guru-RF/ham-tools
 ```
 
 Or, to build the latest development version straight from `master`:
